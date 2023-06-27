@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glassdoor jobs</title> 
+    <link rel="stylesheet" href="{{url_for('static',filename='css/main.css')}}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   </head>
+<body>
+  <nav>
+    <div class="menu">
+      <div class="logo">
+        <a href="{{url_for('home')}}">Glassdoor jobs</a>
+      </div>
+      <ul>
+        <li><a href="{{url_for('home')}}">Home</a></li>
+        <li><a href="{{url_for('dashboard')}}">Dashboard</a></li>
+        <li><a href="{{url_for('report')}}">Report</a></li>
+        <li><a href="{{url_for('story')}}">Story</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="img">
+    
+  </div>
+  
+  <div class="center">
+    <div class="title">The Future of Work-</div>
+    <div class="sub_title">Data Analysis of Glassdoor Jobs</div>
+    <br>
+
+    <div class="container">
+        <img class="homeimg" src="{{url_for('static',filename='css/images/mainimg.svg')}}">
+        <div class="card">
+            <p>A website dedicated to analyzing job data from Glassdoor, a popular platform for employee reviews and job listings. The website focuses on providing insights and trends related to the future of work by leveraging the extensive job data available on Glassdoor...</p>
+        </div>
+    </div>
+
+        
+  </div>
+
+
+  <div>
+    <footer>
+      <div class="container">
+        <div class="footercard">
+          <h2>Useful links.</h2>
+          <br>
+          <ul style="list-style-type: none;">
+            <li><a href="{{url_for('home')}}" class="my-link">Home</a></li>
+            <li><a href="{{url_for('dashboard')}}" class="my-link">Dashboard</a></li>
+            <li><a href="{{url_for('report')}}" class="my-link">Report</a></li>
+            <li><a href="{{url_for('story')}}" class="my-link">Story</a></li>
+          </ul> 
+      </div>
+      <div class="footercard-right">
+        <h2>Contact Us.</h2>
+        <ul style="list-style-type: none;">
+          <br>
+          <i class="fa fa-phone" style="font-size:36px"></i><p>+91 9489298767</p>
+          
+          <br>
+          <i class="material-icons" style="font-size:36px">mail</i>
+          <p>glassdoornanmudhalvan@gmail.com</p>
+        </ul> 
+    </div>
+       
+        
+        
+    </div>
+        
+        <br>
+        <br>
+        <p class="footer-text">&copy; Glassdoor Jobs. All rights reserved.</p>
+    </footer>
+
+  </div>
+
+  
+
+  
+</html>
